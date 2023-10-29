@@ -38,7 +38,7 @@ const [memberAddresses, setMemberAddresses] = useState([]);
 
 // Uma função para diminuir o endereço da carteira de alguém, não é necessário mostrar a coisa toda.
 const shortenAddress = (str) => {
-  return str.substring(0, 6) + "..." + str.substring(str.length - 4);
+   return str.substring(0, 6) + "..." + str.substring(str.length - 4);
   
 };
 const [proposals, setProposals] = useState([]);
@@ -169,6 +169,13 @@ if (hasClaimedNFT) {
     <div className="member-page">
       <h1>Página dos membros da InvestDAO</h1>
       <p>Parabéns por fazer parte desse clube de Investimento!</p>
+      <ul>
+        <p>Codigo nosso Contrato</p>
+        <p>0x0eFc68Ad081e85412AEAC42E7B6BFa5ecBB8a45e</p>
+        <p>Para Adicionar o NFT basta Adionar o Codigo Abaixo</p>
+        <p>0x9cA243c9CC297268727B9Fb680218e4077709139</p>
+        
+      </ul>
       <div>
         <div>
           <h2>Lista de Membros</h2>
